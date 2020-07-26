@@ -68,26 +68,26 @@ public class LoginTest extends commonLib {
 		}
 	}
 
-//	@Test(priority = 3)
-//	public void PatietSearch() throws Exception {
-//
-//		try {
-//			obj.newAppoinment();
-//			obj.search_patient();
-//			obj.patientselect();
-//			obj.savepatientsappoinment();
-//
-//			test = extent.createTest("Test Case 3", "PASSED");
-//			Assert.assertTrue(true);
-//
-//		} catch (Exception e) {
-//
-//			System.err.println("Test : Failed, " + " Message :" + e.getMessage() + " , Cause : " + e.getCause());
-//			test = extent.createTest("Test Case 3", "failed");
-//			Assert.assertTrue(false);
-//		}
-//
-//	}
+	@Test(priority = 3)
+	public void PatietSearch() throws Exception {
+
+		try {
+			obj.newAppoinment();
+			obj.search_patient();
+			obj.patientselect();
+			obj.savepatientsappoinment();
+
+			test = extent.createTest("Test Case 3", "PASSED");
+			Assert.assertTrue(true);
+
+		} catch (Exception e) {
+
+			System.err.println("Test : Failed, " + " Message :" + e.getMessage() + " , Cause : " + e.getCause());
+			test = extent.createTest("Test Case 3", "failed");
+			Assert.assertTrue(false);
+		}
+
+	}
 
 	@AfterMethod
 
