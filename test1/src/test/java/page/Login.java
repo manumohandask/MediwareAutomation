@@ -94,73 +94,73 @@ public class Login extends commonLib {
 
 	}
 
-//	public void timeSelect() throws Exception {
-//
-//		try {
-//
-//			Thread.sleep(3000);
-//			List<WebElement> allElement = driver.findElements(By.xpath(commonLib.getElementPropFile("TIME_SELECT")));
-//			JavascriptExecutor js = (JavascriptExecutor) driver;
-//			js.executeScript("arguments[0].scrollIntoView();", allElement.get(0));
-//			allElement.get(0).click();
-//
-//		} catch (Exception e) {
-//
-//			throw new Exception("Unable to select the time", e);
-//		}
-//
-//	}
-//
-//	public void newAppoinment() throws Exception {
-//		try {
-//
-//			driver.switchTo().frame("AppointmentDiv");
-//			WebElement appoinment = driver.findElement(By.xpath(commonLib.getElementPropFile("PATIENT_ID")));
-//			appoinment.sendKeys(commonLib.getTestDataPropFile("PATIENT"));
-//
-//		} catch (Exception e) {
-//			throw new Exception("Unable to enter patient id ", e);
-//		}
-//
-//	}
-//
-//	public void search_patient() throws Exception {
-//
-//		try {
-//
-//			WebElement search = driver.findElement(By.xpath(commonLib.getElementPropFile("SEARCH")));
-//			search.click();
-//		} catch (Exception e) {
-//			throw new Exception("unable to search", e);
-//		}
-//
-//	}
-//
-//	public void patientselect() throws Exception {
-//
-//		try {
-//			Thread.sleep(3000);
-//			WebElement selectpatients = driver.findElement(By.id(commonLib.getElementPropFile("SELECT_PATIENT")));
-//			selectpatients.click();
-//			Thread.sleep(3000);
-//
-//		} catch (Exception e) {
-//			throw new Exception("unable to select the patient", e);
-//		}
-//
-//	}
-//
-//	public void savepatientsappoinment() throws Exception {
-//		try {
-//			WebElement patient = driver.findElement(By.xpath(commonLib.getElementPropFile("SAVE_PATIENT")));
-//			patient.click();
-//			Thread.sleep(3000);
-//
-//		} catch (Exception e) {
-//			throw new Exception("unable to save", e);
-//
-//		}
-//
-//	}
+	public void timeSelect() throws Exception {
+
+		try {
+
+			Thread.sleep(3000);
+			List<WebElement> allElement = driver.findElements(By.xpath(commonLib.getElementPropFile("TIME_SELECT")));
+			JavascriptExecutor js = (JavascriptExecutor) driver;
+			js.executeScript("arguments[0].scrollIntoView();", allElement.get(0));
+			allElement.get(0).click();
+
+		} catch (Exception e) {
+
+			throw new Exception("Unable to select the time", e);
+		}
+
+	}
+
+	public void newAppoinment() throws Exception {
+		try {
+
+			driver.switchTo().frame("AppointmentDiv");
+			WebElement appoinment = driver.findElement(By.xpath(commonLib.getElementPropFile("PATIENT_ID")));
+			appoinment.sendKeys(commonLib.getTestDataPropFile("PATIENT"));
+
+		} catch (Exception e) {
+			throw new Exception("Unable to enter patient id ", e);
+		}
+
+	}
+
+	public void search_patient() throws Exception {
+
+		try {
+
+			WebElement search = driver.findElement(By.xpath(commonLib.getElementPropFile("SEARCH")));
+			search.click();
+		} catch (Exception e) {
+			throw new Exception("unable to search", e);
+		}
+
+	}
+
+	public void patientselect() throws Exception {
+
+		try {
+			Thread.sleep(3000);
+			WebElement selectpatients = driver.findElement(By.id(commonLib.getElementPropFile("SELECT_PATIENT")));
+			selectpatients.click();
+			Thread.sleep(3000);
+
+		} catch (Exception e) {
+			throw new Exception("unable to select the patient", e);
+		}
+
+	}
+
+	public void savepatientsappoinment() throws Exception {
+		try {
+			WebElement patient = driver.findElement(By.xpath(commonLib.getElementPropFile("SAVE_PATIENT")));
+			patient.click();
+			Thread.sleep(3000);
+
+		} catch (Exception e) {
+			throw new Exception("unable to save", e);
+
+		}
+
+	}
 
 }
