@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="21405" started-at="2020-07-26T06:49:59Z" finished-at="2020-07-26T06:50:21Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="21405" started-at="2020-07-26T06:49:59Z" finished-at="2020-07-26T06:50:21Z">
+      <class name="testPackage.LoginTest">
+        <test-method status="PASS" signature="BaseClass()[pri:0, instance:testPackage.LoginTest@258e2e41]" name="BaseClass" is-config="true" duration-ms="9441" started-at="2020-07-26T06:49:59Z" finished-at="2020-07-26T06:50:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BaseClass -->
+        <test-method status="PASS" signature="initObjects()[pri:0, instance:testPackage.LoginTest@258e2e41]" name="initObjects" is-config="true" duration-ms="36" started-at="2020-07-26T06:50:09Z" finished-at="2020-07-26T06:50:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initObjects -->
+        <test-method status="PASS" signature="Mediwarelogin()[pri:1, instance:testPackage.LoginTest@258e2e41]" name="Mediwarelogin" duration-ms="6009" started-at="2020-07-26T06:50:09Z" finished-at="2020-07-26T06:50:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Mediwarelogin -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testPackage.LoginTest@258e2e41]" name="getResult" is-config="true" duration-ms="10" started-at="2020-07-26T06:50:15Z" finished-at="2020-07-26T06:50:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Mediwarelogin status=SUCCESS method=LoginTest.Mediwarelogin()[pri:1, instance:testPackage.LoginTest@258e2e41] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="MediwareAppoinment()[pri:2, instance:testPackage.LoginTest@258e2e41]" name="MediwareAppoinment" duration-ms="5875" started-at="2020-07-26T06:50:15Z" finished-at="2020-07-26T06:50:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MediwareAppoinment -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testPackage.LoginTest@258e2e41]" name="getResult" is-config="true" duration-ms="0" started-at="2020-07-26T06:50:21Z" finished-at="2020-07-26T06:50:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=MediwareAppoinment status=SUCCESS method=LoginTest.MediwareAppoinment()[pri:2, instance:testPackage.LoginTest@258e2e41] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- testPackage.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
